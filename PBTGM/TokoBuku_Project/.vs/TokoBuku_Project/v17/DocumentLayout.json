@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_transaksi_baru_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_kasir_transaksi_baru_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\tokobuku_project\\ds_kasir_transaksi_baru_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_kasir_transaksi_baru_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\tokobuku_project\\databuku_tabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:databuku_tabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\tokobuku_project\\databuku_tabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:databuku_tabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\tokobuku_project\\ds_admin_manajemen_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_admin_manajemen_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_manajemen_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_admin_manajemen_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_menu_transaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_kasir_menu_transaksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_stok_barang_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_kasir_stok_barang_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_menu_utama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_kasir_menu_utama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_diskon_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_admin_diskon_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\tokobuku_project\\struk_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:struk_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_beranda_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_admin_beranda_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_laporan_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_admin_laporan_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\tokobuku_project\\struk_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:struk_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\tokobuku_project\\ds_admin_laporan_menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_admin_laporan_menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\tokobuku_project\\login_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:login_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_laporan_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_admin_laporan_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:dashboard_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:dashboard_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_kasir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:dashboard_kasir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\login_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:login_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_menu_utama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_kasir_menu_utama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_kasir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:dashboard_kasir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_stok_barang_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_kasir_stok_barang_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_diskon_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}|TokoBuku_Project.csproj|solutionrelative:ds_admin_diskon_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:18:00.298Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ds_kasir_transaksi_baru_control.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_transaksi_baru_control.cs",
+              "RelativeDocumentMoniker": "ds_kasir_transaksi_baru_control.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_transaksi_baru_control.cs",
+              "RelativeToolTip": "ds_kasir_transaksi_baru_control.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T01:35:37.305Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ds_kasir_transaksi_baru_control.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_transaksi_baru_control.cs",
+              "RelativeDocumentMoniker": "ds_kasir_transaksi_baru_control.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_transaksi_baru_control.cs [Design]",
+              "RelativeToolTip": "ds_kasir_transaksi_baru_control.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:05:19.471Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataBuku_Tabel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\DataBuku_Tabel.cs",
+              "RelativeDocumentMoniker": "DataBuku_Tabel.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\DataBuku_Tabel.cs [Design]",
+              "RelativeToolTip": "DataBuku_Tabel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T02:33:28.054Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataBuku_Tabel.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\DataBuku_Tabel.cs",
+              "RelativeDocumentMoniker": "DataBuku_Tabel.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\DataBuku_Tabel.cs",
+              "RelativeToolTip": "DataBuku_Tabel.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAkwIYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T02:41:37.493Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ds_admin_manajemen_menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_manajemen_menu.cs",
+              "RelativeDocumentMoniker": "ds_admin_manajemen_menu.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_manajemen_menu.cs [Design]",
+              "RelativeToolTip": "ds_admin_manajemen_menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T02:35:37.16Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ds_kasir_menu_transaksi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_menu_transaksi.cs",
+              "RelativeDocumentMoniker": "ds_kasir_menu_transaksi.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_menu_transaksi.cs [Design]",
+              "RelativeToolTip": "ds_kasir_menu_transaksi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:40:03.533Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ds_admin_manajemen_menu.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_manajemen_menu.cs",
+              "RelativeDocumentMoniker": "ds_admin_manajemen_menu.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_manajemen_menu.cs",
+              "RelativeToolTip": "ds_admin_manajemen_menu.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAvwP0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T04:27:34.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ds_kasir_stok_barang_control.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_stok_barang_control.cs",
+              "RelativeDocumentMoniker": "ds_kasir_stok_barang_control.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_stok_barang_control.cs [Design]",
+              "RelativeToolTip": "ds_kasir_stok_barang_control.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:58:19.561Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ds_kasir_menu_utama.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_menu_utama.cs",
+              "RelativeDocumentMoniker": "ds_kasir_menu_utama.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_menu_utama.cs [Design]",
+              "RelativeToolTip": "ds_kasir_menu_utama.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T04:37:56.413Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ds_admin_diskon_menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_diskon_menu.cs",
+              "RelativeDocumentMoniker": "ds_admin_diskon_menu.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_diskon_menu.cs [Design]",
+              "RelativeToolTip": "ds_admin_diskon_menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:26:21.991Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Struk_form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\Struk_form.cs",
+              "RelativeDocumentMoniker": "Struk_form.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\Struk_form.cs [Design]",
+              "RelativeToolTip": "Struk_form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T01:03:29.637Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ds_admin_beranda_menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_beranda_menu.cs",
+              "RelativeDocumentMoniker": "ds_admin_beranda_menu.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_beranda_menu.cs [Design]",
+              "RelativeToolTip": "ds_admin_beranda_menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:14:23.047Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ds_admin_laporan_menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_laporan_menu.cs",
+              "RelativeDocumentMoniker": "ds_admin_laporan_menu.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_laporan_menu.cs [Design]",
+              "RelativeToolTip": "ds_admin_laporan_menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T02:12:07.232Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Struk_form.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\Struk_form.cs",
+              "RelativeDocumentMoniker": "Struk_form.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\Struk_form.cs",
+              "RelativeToolTip": "Struk_form.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAMwBoAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T01:09:05.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ds_admin_laporan_menu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_laporan_menu.Designer.cs",
+              "RelativeDocumentMoniker": "ds_admin_laporan_menu.Designer.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_laporan_menu.Designer.cs",
+              "RelativeToolTip": "ds_admin_laporan_menu.Designer.cs",
+              "ViewState": "AgIAAHYBAAAAAAAAAAAMwIQBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T00:18:32.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "login_page.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\login_page.cs",
+              "RelativeDocumentMoniker": "login_page.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\login_page.cs",
+              "RelativeToolTip": "login_page.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwDMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:08:18.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ds_admin_laporan_menu.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_laporan_menu.cs",
+              "RelativeDocumentMoniker": "ds_admin_laporan_menu.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_laporan_menu.cs",
+              "RelativeToolTip": "ds_admin_laporan_menu.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T02:07:53.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dashboard_admin.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_admin.cs",
+              "RelativeDocumentMoniker": "dashboard_admin.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_admin.cs",
+              "RelativeToolTip": "dashboard_admin.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwDoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:16:21.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "dashboard_admin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_admin.cs",
+              "RelativeDocumentMoniker": "dashboard_admin.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_admin.cs [Design]",
+              "RelativeToolTip": "dashboard_admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:12:41.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "login_page.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\login_page.cs",
+              "RelativeDocumentMoniker": "login_page.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\login_page.cs [Design]",
+              "RelativeToolTip": "login_page.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:51:23.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dashboard_kasir.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_kasir.cs",
+              "RelativeDocumentMoniker": "dashboard_kasir.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_kasir.cs [Design]",
+              "RelativeToolTip": "dashboard_kasir.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T04:03:52.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ds_kasir_menu_utama.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_menu_utama.cs",
+              "RelativeDocumentMoniker": "ds_kasir_menu_utama.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_menu_utama.cs",
+              "RelativeToolTip": "ds_kasir_menu_utama.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:08:53.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "dashboard_kasir.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_kasir.cs",
+              "RelativeDocumentMoniker": "dashboard_kasir.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\dashboard_kasir.cs",
+              "RelativeToolTip": "dashboard_kasir.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:39:19.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ds_kasir_stok_barang_control.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_stok_barang_control.cs",
+              "RelativeDocumentMoniker": "ds_kasir_stok_barang_control.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_kasir_stok_barang_control.cs",
+              "RelativeToolTip": "ds_kasir_stok_barang_control.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:26:22.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ds_admin_diskon_menu.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_diskon_menu.cs",
+              "RelativeDocumentMoniker": "ds_admin_diskon_menu.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\TokoBuku_Project\\ds_admin_diskon_menu.cs",
+              "RelativeToolTip": "ds_admin_diskon_menu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T03:09:44.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

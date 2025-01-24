@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D52846D1-D9A8-4C83-A1A9-3333E9562DD2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TokoBuku_Project</RootNamespace>
+    <AssemblyName>TokoBuku_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Library\mysql-connector-net-9.0.0\v4.6.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dashboard_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard_admin.Designer.cs">
+      <DependentUpon>dashboard_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBuku_Tabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataBuku_Tabel.Designer.cs">
+      <DependentUpon>DataBuku_Tabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ds_admin_beranda_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ds_admin_beranda_menu.Designer.cs">
+      <DependentUpon>ds_admin_beranda_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard_kasir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard_kasir.Designer.cs">
+      <DependentUpon>dashboard_kasir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ds_admin_diskon_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ds_admin_diskon_menu.Designer.cs">
+      <DependentUpon>ds_admin_diskon_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ds_kasir_menu_transaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ds_kasir_menu_transaksi.Designer.cs">
+      <DependentUpon>ds_kasir_menu_transaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ds_kasir_menu_utama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ds_kasir_menu_utama.Designer.cs">
+      <DependentUpon>ds_kasir_menu_utama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ds_kasir_stok_barang_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ds_kasir_stok_barang_control.Designer.cs">
+      <DependentUpon>ds_kasir_stok_barang_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_page.Designer.cs">
+      <DependentUpon>login_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ds_admin_laporan_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ds_admin_laporan_menu.Designer.cs">
+      <DependentUpon>ds_admin_laporan_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ds_admin_manajemen_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ds_admin_manajemen_menu.Designer.cs">
+      <DependentUpon>ds_admin_manajemen_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ds_kasir_transaksi_baru_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ds_kasir_transaksi_baru_control.Designer.cs">
+      <DependentUpon>ds_kasir_transaksi_baru_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Struk_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Struk_form.Designer.cs">
+      <DependentUpon>Struk_form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="dashboard_admin.resx">
+      <DependentUpon>dashboard_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataBuku_Tabel.resx">
+      <DependentUpon>DataBuku_Tabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ds_admin_beranda_menu.resx">
+      <DependentUpon>ds_admin_beranda_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dashboard_kasir.resx">
+      <DependentUpon>dashboard_kasir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ds_admin_diskon_menu.resx">
+      <DependentUpon>ds_admin_diskon_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ds_kasir_menu_transaksi.resx">
+      <DependentUpon>ds_kasir_menu_transaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ds_kasir_menu_utama.resx">
+      <DependentUpon>ds_kasir_menu_utama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ds_kasir_stok_barang_control.resx">
+      <DependentUpon>ds_kasir_stok_barang_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_page.resx">
+      <DependentUpon>login_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ds_admin_laporan_menu.resx">
+      <DependentUpon>ds_admin_laporan_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ds_admin_manajemen_menu.resx">
+      <DependentUpon>ds_admin_manajemen_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ds_kasir_transaksi_baru_control.resx">
+      <DependentUpon>ds_kasir_transaksi_baru_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Struk_form.resx">
+      <DependentUpon>Struk_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_981b826c-2db9-4c02-804d-ff2ea6f0caca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

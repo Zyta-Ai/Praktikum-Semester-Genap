@@ -23,7 +23,7 @@ CREATE TABLE karyawan (
 );
 
 CREATE TABLE jabatan (
-    id_jabatan INT PRIMARY KEY,
+    id_jabatan INT PRIMARY KEY AUTO_INCREMENT,
     nama_jabatan VARCHAR(150),
     gaji_pokok DECIMAL(10,2)
 );
@@ -37,6 +37,7 @@ CREATE TABLE absensi (
     FOREIGN KEY (id_karyawan) REFERENCES karyawan(id_karyawan)
 );
 
+DROP TABLE jabatan
 
 INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok)
 VALUES
@@ -136,3 +137,8 @@ GROUP BY karyawan.nama LIMIT 1;
 
 
 
+DROP TABLE jabatan
+
+INSERT INTO jabatan(nama_jabatan, gaji_pokok) VALUES()
+
+SELECT * FROM jabatan;
