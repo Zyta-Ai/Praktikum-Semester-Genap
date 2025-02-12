@@ -77,7 +77,7 @@
             this.ddatelabel1.AutoSize = true;
             this.ddatelabel1.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ddatelabel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ddatelabel1.Location = new System.Drawing.Point(62, 66);
+            this.ddatelabel1.Location = new System.Drawing.Point(68, 66);
             this.ddatelabel1.Name = "ddatelabel1";
             this.ddatelabel1.Size = new System.Drawing.Size(197, 31);
             this.ddatelabel1.TabIndex = 22;
@@ -87,7 +87,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(59, 30);
+            this.label8.Location = new System.Drawing.Point(65, 25);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(283, 50);
             this.label8.TabIndex = 21;
@@ -102,7 +102,7 @@
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.datelabel1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(1072, 720);
+            this.panel1.Location = new System.Drawing.Point(1083, 720);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(337, 238);
             this.panel1.TabIndex = 25;
@@ -181,7 +181,7 @@
             this.panel4.Controls.Add(this.label13);
             this.panel4.Controls.Add(this.label14);
             this.panel4.Controls.Add(this.label15);
-            this.panel4.Location = new System.Drawing.Point(570, 720);
+            this.panel4.Location = new System.Drawing.Point(581, 720);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(359, 238);
             this.panel4.TabIndex = 26;
@@ -260,7 +260,7 @@
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label10);
-            this.panel2.Location = new System.Drawing.Point(68, 720);
+            this.panel2.Location = new System.Drawing.Point(79, 720);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(359, 238);
             this.panel2.TabIndex = 27;
@@ -337,7 +337,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button2.Location = new System.Drawing.Point(1167, 66);
+            this.button2.Location = new System.Drawing.Point(1178, 66);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(109, 42);
             this.button2.TabIndex = 38;
@@ -351,7 +351,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button3.Location = new System.Drawing.Point(1300, 66);
+            this.button3.Location = new System.Drawing.Point(1311, 66);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(109, 42);
             this.button3.TabIndex = 37;
@@ -361,7 +361,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Poppins", 10F);
-            this.textBox2.Location = new System.Drawing.Point(68, 107);
+            this.textBox2.Location = new System.Drawing.Point(79, 107);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(995, 42);
@@ -379,14 +379,13 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dataGridView1.Location = new System.Drawing.Point(68, 172);
+            this.dataGridView1.Location = new System.Drawing.Point(79, 172);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(1342, 501);
             this.dataGridView1.TabIndex = 23;
-           
             // 
             // Column1
             // 
@@ -421,7 +420,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1167, 121);
+            this.comboBox1.Location = new System.Drawing.Point(1178, 121);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(242, 28);
             this.comboBox1.TabIndex = 39;

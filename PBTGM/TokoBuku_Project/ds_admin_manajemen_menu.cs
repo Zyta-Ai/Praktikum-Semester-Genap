@@ -275,6 +275,57 @@ namespace TokoBuku_Project
 
         private void bSimpan_MouseClick(object sender, MouseEventArgs e)
         {
+           
+        }
+
+        private void bNext_Click(object sender, EventArgs e)
+        {
+            int totalData = GetTotalRecords();
+            int maxPage = (int)Math.Ceiling((double)totalData / jumlahDataPerHalaman);
+
+            if(halamanSaatIni < maxPage)
+            {
+                halamanSaatIni++;
+                LoadDataPelanggan(halamanSaatIni);
+    
+            }
+            else
+            {
+                MessageBox.Show("Tidak ada data, anda sudah di halaman paling akhir.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+  
+            }
+        }
+
+        private void bBack_Click(object sender, EventArgs e)
+        {
+            int totalData = GetTotalRecords();
+            int maxPage = (int)Math.Ceiling((double)totalData / jumlahDataPerHalaman);
+
+            if (halamanSaatIni > 1)
+            {
+                halamanSaatIni--;
+                LoadDataPelanggan(halamanSaatIni);
+
+            }
+            else
+            {
+                MessageBox.Show("Tidak ada data, anda sudah di halaman pertama.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+  
+            }
+        }
+
+        private void bSimpan_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void data_buku_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void bSimpan_Click_2(object sender, EventArgs e)
+        {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 if (string.IsNullOrEmpty(tbIdBuku.Text) || string.IsNullOrEmpty(tbKodeBuku.Text) ||
@@ -350,47 +401,6 @@ namespace TokoBuku_Project
                     }
                 }
             }
-        }
-
-        private void bNext_Click(object sender, EventArgs e)
-        {
-            int totalData = GetTotalRecords();
-            int maxPage = (int)Math.Ceiling((double)totalData / jumlahDataPerHalaman);
-
-            if(halamanSaatIni < maxPage)
-            {
-                halamanSaatIni++;
-                LoadDataPelanggan(halamanSaatIni);
-    
-            }
-            else
-            {
-                MessageBox.Show("Tidak ada data, anda sudah di halaman paling akhir.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-  
-            }
-        }
-
-        private void bBack_Click(object sender, EventArgs e)
-        {
-            int totalData = GetTotalRecords();
-            int maxPage = (int)Math.Ceiling((double)totalData / jumlahDataPerHalaman);
-
-            if (halamanSaatIni > 1)
-            {
-                halamanSaatIni--;
-                LoadDataPelanggan(halamanSaatIni);
-
-            }
-            else
-            {
-                MessageBox.Show("Tidak ada data, anda sudah di halaman pertama.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-  
-            }
-        }
-
-        private void bSimpan_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

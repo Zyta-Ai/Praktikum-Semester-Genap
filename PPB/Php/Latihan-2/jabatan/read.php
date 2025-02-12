@@ -9,6 +9,7 @@ $conn = new mysqli($servername, $username, $password, $db_name);
 $tampil = "SELECT * FROM jabatan";
 
 $hasil = $conn->query($tampil);
+
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +18,7 @@ $hasil = $conn->query($tampil);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tampilkan</title>
 
     <link rel="stylesheet" href="../assets/style.css">
 </head>
@@ -28,13 +29,15 @@ $hasil = $conn->query($tampil);
 
     <div class="container">
 
-        <form action="" method="POST">
+        <form action="" method="post">
             <table class="table">
                 <thead class="table-dark">
                     <tr>
                         <th scope="col">ID Jabatan</th>
                         <th scope="col">Nama Jabatan</th>
                         <th scope="col">Gaji Pokok</th>
+                        <th scope="col">#</th>
+                        <th scope="col">Hapus</th>                      
                     </tr>
                 </thead>
                 <tbody>
@@ -44,6 +47,9 @@ $hasil = $conn->query($tampil);
                             <td> <?php echo $item['id_jabatan'] ?> </td>
                             <td> <?= $item['nama_jabatan'] ?> </td>
                             <td> <?= $item['gaji_pokok'] ?> </td>
+                            <td><a href="http://localhost:8080/PPB/Php/Latihan-2/Jabatan/update.php?id_jabatan=<?= $item['id_jabatan'] ?>">Edit</a></td>
+                            <td><a href="http://localhost:8080/PPB/Php/Latihan-2/Jabatan/delete.php?id_jabatan=<?= $item['id_jabatan'] ?>">Hapus</a></td>
+
                         </tr>
 
                     <?php endwhile; ?>

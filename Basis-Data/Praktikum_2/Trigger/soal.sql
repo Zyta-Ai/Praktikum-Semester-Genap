@@ -37,7 +37,7 @@ CREATE TABLE absensi (
     FOREIGN KEY (id_karyawan) REFERENCES karyawan(id_karyawan)
 );
 
-DROP TABLE jabatan
+DROP TABLE jabatan,karyawan
 
 INSERT INTO jabatan (id_jabatan, nama_jabatan, gaji_pokok)
 VALUES
@@ -141,4 +141,6 @@ DROP TABLE jabatan
 
 INSERT INTO jabatan(nama_jabatan, gaji_pokok) VALUES()
 
-SELECT * FROM jabatan;
+SELECT * FROM karyawan JOIN jabatan ON jabatan.id_jabatan = karyawan.id_jabatan;
+
+SELECT jenis_kelamin FROM karyawan 

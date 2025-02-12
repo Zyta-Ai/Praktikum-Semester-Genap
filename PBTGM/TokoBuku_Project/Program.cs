@@ -16,7 +16,7 @@ namespace TokoBuku_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new dashboard_kasir());
+            Application.Run(new admin_dashboard());
 
         }
     }

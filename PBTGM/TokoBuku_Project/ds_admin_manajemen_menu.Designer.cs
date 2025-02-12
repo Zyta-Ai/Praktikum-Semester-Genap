@@ -111,6 +111,7 @@
             this.data_buku.Size = new System.Drawing.Size(1342, 423);
             this.data_buku.TabIndex = 19;
             this.data_buku.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_buku_CellClick);
+            this.data_buku.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_buku_CellContentClick);
             // 
             // Column1
             // 
@@ -167,6 +168,7 @@
             this.bSimpan.TabIndex = 23;
             this.bSimpan.Text = "Simpan";
             this.bSimpan.UseVisualStyleBackColor = false;
+            this.bSimpan.Click += new System.EventHandler(this.bSimpan_Click_2);
             // 
             // bHapus
             // 

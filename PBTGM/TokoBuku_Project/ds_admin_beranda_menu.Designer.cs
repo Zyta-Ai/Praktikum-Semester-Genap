@@ -102,7 +102,7 @@
             this.panel5.Controls.Add(this.label13);
             this.panel5.Controls.Add(this.label12);
             this.panel5.Controls.Add(this.label11);
-            this.panel5.Location = new System.Drawing.Point(68, 740);
+            this.panel5.Location = new System.Drawing.Point(74, 758);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(369, 140);
             this.panel5.TabIndex = 18;
@@ -133,7 +133,7 @@
             this.ddatelabel1.AutoSize = true;
             this.ddatelabel1.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ddatelabel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ddatelabel1.Location = new System.Drawing.Point(76, 87);
+            this.ddatelabel1.Location = new System.Drawing.Point(68, 61);
             this.ddatelabel1.Name = "ddatelabel1";
             this.ddatelabel1.Size = new System.Drawing.Size(197, 31);
             this.ddatelabel1.TabIndex = 16;
@@ -161,7 +161,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(69, 46);
+            this.label8.Location = new System.Drawing.Point(65, 25);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(341, 50);
             this.label8.TabIndex = 15;
@@ -287,7 +287,7 @@
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label10);
-            this.panel2.Location = new System.Drawing.Point(68, 439);
+            this.panel2.Location = new System.Drawing.Point(74, 444);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(369, 261);
             this.panel2.TabIndex = 17;
@@ -311,7 +311,7 @@
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.datelabel1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(68, 138);
+            this.panel1.Location = new System.Drawing.Point(74, 130);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(369, 261);
             this.panel1.TabIndex = 14;

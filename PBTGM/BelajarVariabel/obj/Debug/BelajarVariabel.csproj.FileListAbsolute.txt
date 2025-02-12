@@ -1,0 +1,11 @@
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\bin\Debug\BelajarVariabel.exe.config
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\bin\Debug\BelajarVariabel.exe
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\bin\Debug\BelajarVariabel.pdb
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\obj\Debug\BelajarVariabel.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\obj\Debug\BelajarVariabel.Form1.resources
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\obj\Debug\BelajarVariabel.Properties.Resources.resources
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\obj\Debug\BelajarVariabel.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\obj\Debug\BelajarVariabel.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\obj\Debug\BelajarVariabel.exe
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\obj\Debug\BelajarVariabel.pdb
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarVariabel\obj\Debug\BelajarVariabel.Form2.resources

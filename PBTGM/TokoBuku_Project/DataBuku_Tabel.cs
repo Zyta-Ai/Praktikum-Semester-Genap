@@ -132,12 +132,18 @@ namespace TokoBuku_Project
 
         private void data_buku_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            ProdukId = data_buku.Rows[e.RowIndex].Cells[0].Value.ToString();
-            ProdukNama = data_buku.Rows[e.RowIndex].Cells[1].Value.ToString();
-            ProdukHarga = data_buku.Rows[e.RowIndex].Cells[3].Value.ToString();
-           
+            if (e.RowIndex >= 0 && data_buku.Rows[e.RowIndex].Cells[0].Value != null)
+            {
+                ProdukId = data_buku.Rows[e.RowIndex].Cells[0].Value.ToString();
+                ProdukNama = data_buku.Rows[e.RowIndex].Cells[1].Value.ToString();
+                ProdukHarga = data_buku.Rows[e.RowIndex].Cells[3].Value.ToString();
 
-            DialogResult = DialogResult.OK;
+                DialogResult = DialogResult.OK;
+            }
+            else
+            {
+                MessageBox.Show("Data tidak valid. Pastikan baris yang dipilih memiliki informasi yang lengkap.");
+            }
         }
 
         private void data_buku_CellClick(object sender, DataGridViewCellEventArgs e)

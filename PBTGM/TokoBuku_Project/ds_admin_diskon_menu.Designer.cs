@@ -72,7 +72,7 @@
             this.ddatelabel1.AutoSize = true;
             this.ddatelabel1.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ddatelabel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ddatelabel1.Location = new System.Drawing.Point(65, 59);
+            this.ddatelabel1.Location = new System.Drawing.Point(68, 64);
             this.ddatelabel1.Name = "ddatelabel1";
             this.ddatelabel1.Size = new System.Drawing.Size(197, 31);
             this.ddatelabel1.TabIndex = 24;
@@ -82,7 +82,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Poppins", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(62, 19);
+            this.label8.Location = new System.Drawing.Point(65, 25);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(311, 50);
             this.label8.TabIndex = 23;
@@ -105,7 +105,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(71, 115);
+            this.panel1.Location = new System.Drawing.Point(74, 115);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(430, 545);
             this.panel1.TabIndex = 25;

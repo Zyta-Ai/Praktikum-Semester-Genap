@@ -72,7 +72,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button1.Location = new System.Drawing.Point(1301, 138);
+            this.button1.Location = new System.Drawing.Point(1295, 138);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 42);
             this.button1.TabIndex = 31;
@@ -82,10 +82,10 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(68, 140);
+            this.textBox1.Location = new System.Drawing.Point(75, 140);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(983, 35);
+            this.textBox1.Size = new System.Drawing.Size(970, 35);
             this.textBox1.TabIndex = 30;
             this.textBox1.Text = "Cari";
             // 
@@ -102,12 +102,12 @@
             this.Column5,
             this.Column6,
             this.Column7});
-            this.dataGridView1.Location = new System.Drawing.Point(68, 197);
+            this.dataGridView1.Location = new System.Drawing.Point(75, 197);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1342, 452);
+            this.dataGridView1.Size = new System.Drawing.Size(1329, 452);
             this.dataGridView1.TabIndex = 29;
             // 
             // Column1
@@ -159,7 +159,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Poppins", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button2.Location = new System.Drawing.Point(1173, 138);
+            this.button2.Location = new System.Drawing.Point(1167, 138);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(109, 42);
             this.button2.TabIndex = 32;

@@ -6,6 +6,9 @@ CREATE DATABASE IF NOT EXISTS toko_buku;
 USE toko_buku;
 
 
+SELECT * FROM books;
+SELECT * FROM users;
+
 CREATE TABLE users (
     id_user INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) UNIQUE,
@@ -27,7 +30,6 @@ CREATE TABLE books (
     stok INT 
 );
 
-DELETE FROM books WHERE id_buku = @id_buku
 
 CREATE TABLE transactions (
     id_transaksi INT AUTO_INCREMENT PRIMARY KEY,
@@ -36,6 +38,16 @@ CREATE TABLE transactions (
     id_user INT,
     FOREIGN KEY (id_user) REFERENCES users(id_user)
 );
+
+
+DROP TABLE transaction_details, transactions
+
+
+SELECT * FROM transaction_details;
+SELECT * FROM transactions;
+SELECT * FROM users;
+
+SELECT * FROM books;
 
 CREATE TABLE transaction_details (
     id_detail INT AUTO_INCREMENT PRIMARY KEY,
@@ -46,6 +58,11 @@ CREATE TABLE transaction_details (
     FOREIGN KEY (id_transaksi) REFERENCES transactions(id_transaksi),
     FOREIGN KEY (id_buku) REFERENCES books(id_buku)
 );
+
+SELECT books.judul, transaction_details.jumlah, transaction_details.subtotal FROM transaction_details 
+JOIN books 
+ON transaction_details.id_buku = books.id_buku
+WHERE transaction_details.id_transaksi = @idTransaksi
 
 -- Tabel Diskon
 CREATE TABLE discounts (
@@ -60,10 +77,14 @@ CREATE TABLE discounts (
     aktif BOOLEAN DEFAULT TRUE 
 );
 
+insert into books(id_buku,kode_buku,judul,pengarang,penerbit,harga,stok) VALUES
+(@id_buku,@kode_buku,@judul,@pengarang,@penerbit,@harga,@stok)
+
 
 SELECT role FROM users WHERE username = @username AND password = @passwords
 
-INSERT INTO books (id_buku, kode_buku, judul, pengarang, penerbit, harga, stok) VALUES 
+INSERT INTO books (id_buku, kode_buku, judul, pengarang, penerbit, harga, stok) 
+VALUES 
 ('11', 'KB011', 'Pemrograman Kotlin', 'Rachel Adams', 'AndroidBooks', 120000, 4),
 ('12', 'KB012', 'Pengembangan Aplikasi Android', 'Oliver Wright', 'MobileMasters', 145000, 8),
 ('13', 'KB013', 'Pemrograman Ruby', 'Sophia Walker', 'CodeWorld', 130000, 10),
@@ -105,5 +126,4 @@ INSERT INTO books (id_buku, kode_buku, judul, pengarang, penerbit, harga, stok) 
 ('49', 'KB049', 'Framework Django', 'Charlotte James', 'CodeBooks', 145000, 8),
 ('50', 'KB050', 'Framework Flask', 'Liam Green', 'WebBooks', 140000, 7);
 
-SELECT judul FROM books WHERE id_buku LIKE @keyword OR kode_buku LIKE @keyword OR judul LIKE @keyword
-LIMIT 5;
+
