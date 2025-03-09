@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\belajarvariabel\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\belajarvariabel\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\BelajarVariabel\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\belajarvariabel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\BelajarVariabel\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\BelajarVariabel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|c:\\users\\asus\\desktop\\developer\\sekolah\\praktikum-semester-genap\\pbtgm\\belajarvariabel\\siswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\BelajarVariabel\\siswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CEA8694-107A-4EF3-A605-76AD12AF8F27}|BelajarVariabel.csproj|solutionrelative:siswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\BelajarVariabel\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Developer\\Sekolah\\Praktikum-Semester-Genap\\PBTGM\\BelajarVariabel\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",

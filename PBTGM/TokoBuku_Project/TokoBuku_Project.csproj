@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book.cs" />
     <Compile Include="dashboard_admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +97,12 @@
     </Compile>
     <Compile Include="ds_kasir_stok_barang_control.Designer.cs">
       <DependentUpon>ds_kasir_stok_barang_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="learning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="learning.Designer.cs">
+      <DependentUpon>learning.cs</DependentUpon>
     </Compile>
     <Compile Include="login_page.cs">
       <SubType>Form</SubType>
@@ -152,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ds_kasir_stok_barang_control.resx">
       <DependentUpon>ds_kasir_stok_barang_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="learning.resx">
+      <DependentUpon>learning.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login_page.resx">
       <DependentUpon>login_page.cs</DependentUpon>

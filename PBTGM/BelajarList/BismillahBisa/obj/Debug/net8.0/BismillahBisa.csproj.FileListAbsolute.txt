@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\bin\Debug\net8.0\BismillahBisa.exe
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\bin\Debug\net8.0\BismillahBisa.deps.json
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\bin\Debug\net8.0\BismillahBisa.runtimeconfig.json
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\bin\Debug\net8.0\BismillahBisa.dll
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\bin\Debug\net8.0\BismillahBisa.pdb
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\obj\Debug\net8.0\BismillahBisa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\obj\Debug\net8.0\BismillahBisa.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\obj\Debug\net8.0\BismillahBisa.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\obj\Debug\net8.0\BismillahBisa.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\obj\Debug\net8.0\BismillahBisa.sourcelink.json
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\obj\Debug\net8.0\BismillahBisa.dll
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\obj\Debug\net8.0\refint\BismillahBisa.dll
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\obj\Debug\net8.0\BismillahBisa.pdb
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\obj\Debug\net8.0\BismillahBisa.genruntimeconfig.cache
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\BelajarList\BismillahBisa\obj\Debug\net8.0\ref\BismillahBisa.dll

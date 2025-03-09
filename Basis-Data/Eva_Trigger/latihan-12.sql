@@ -44,8 +44,35 @@ INSERT INTO
         id_barang,
         jumlah_beli
     )
-VALUES (1, "A10", 5);
+VALUES (1, "A10", 50);
 
+SELECT * FROM tabel_barang
+
+-- Cek Apakah Stok barang yang dibeli cukup?
+DELIMITER ##
+
+CREATE TRIGGER cek_stok_barang
+BEFORE INSERT 
+ON tabel_pembelian
+FOR EACH ROW
+BEGIN
+    -- Menyiapkan Varibel untuk menyimpan Stok
+    DECLARE jumlah_stok INT;
+    -- Mengecek stok dari barang yang di beli
+    SET jumlah_stok = (SELECT stok FROM tabel_barang WHERE id_barang = NEW.id_barang);
+
+    -- SELECT stok INTO FROM tabel_barang WHERE id_barang = NEW.id_barang;
+
+    IF jumlah_stok < NEW.jumlah_beli THEN
+        -- jika tidak cukup maka batalkan INSERT
+        SIGNAL SQLSTATE '45000'
+        -- Kirim Pesan Error 
+        SET MESSAGE_TEXT = "Stok Barang Tidak Cukup";
+        
+    END IF;
+END##
+
+SELECT * FROM tabel_barang
 
 -- Trigger 1 untuk Stok Inkremen
 DELIMITER ##

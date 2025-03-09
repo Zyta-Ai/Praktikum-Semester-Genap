@@ -27,3 +27,4 @@ C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoBuku_
 C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoBuku_Project\obj\Debug\TokoBuku_Project.page_login.resources
 C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoBuku_Project\obj\Debug\TokoBuku_Project.Struk_form.resources
 C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoBuku_Project\obj\Debug\TokoBuku_Project.DataBuku_Tabel.resources
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoBuku_Project\obj\Debug\TokoBuku_Project.learning.resources

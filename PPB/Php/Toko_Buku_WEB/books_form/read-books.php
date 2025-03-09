@@ -6,12 +6,6 @@ $tampil = "SELECT * FROM books";
 
 $hasil = $conn->query($tampil);
 
-// // Periksa apakah pengguna sudah login dan memiliki role admin
-// if (!isset($_SESSION['username']) || $_SESSION['role'] !== 'admin') {
-//     header("Location: login.php");
-//     exit;
-// }
-
 ?>
 
 <!DOCTYPE html>
