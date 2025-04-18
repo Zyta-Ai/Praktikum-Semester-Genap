@@ -10,6 +10,7 @@ $list_buku = [];
 while ($data = $buku->fetch_assoc()) {
     $list_buku[] = $data;
 }
+
 ?>
 
 <!DOCTYPE html>

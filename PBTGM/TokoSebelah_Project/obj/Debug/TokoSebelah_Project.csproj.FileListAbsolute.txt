@@ -1,0 +1,17 @@
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\obj\Debug\TokoSebelah_Project.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\obj\Debug\TokoSebelah_Project.Properties.Resources.resources
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\obj\Debug\TokoSebelah_Project.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\obj\Debug\TokoSebelah_Project.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\bin\Debug\TokoSebelah_Project.exe.config
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\bin\Debug\TokoSebelah_Project.exe
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\bin\Debug\TokoSebelah_Project.pdb
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\obj\Debug\TokoSebelah_Project.exe
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\obj\Debug\TokoSebelah_Project.pdb
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\bin\Debug\MySql.Data.dll
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\bin\Debug\System.Memory.dll
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\bin\Debug\System.Buffers.dll
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\bin\Debug\MySql.Data.xml
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\obj\Debug\TokoSebelah_Project.Dashboard.resources
+C:\Users\Asus\Desktop\Developer\Sekolah\Praktikum-Semester-Genap\PBTGM\TokoSebelah_Project\obj\Debug\TokoSebe.A580E48C.Up2Date

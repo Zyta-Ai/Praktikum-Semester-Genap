@@ -4,7 +4,6 @@ include "../template/config_db.php";
 if ($conn->connect_error) {
     die("Koneksi Gagal: " . $conn->connect_error);
 }
-;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $kode_buku = $_POST['kode_buku'];
@@ -118,7 +117,6 @@ if (isset($kode_buku)) {
             </a>
 
             <button class="btn btn-outline-success" type="submit">Submit</button>
-
         </form>
     </div>
 

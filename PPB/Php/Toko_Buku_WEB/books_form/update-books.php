@@ -62,7 +62,7 @@ $data = $books->fetch_assoc();
                 <label for="id_buku" class="col-sm-2 col-form-label">ID Buku</label>
                 <div class="col-sm-6">
                     <input type="text" class="form-control" id="id_buku" name="id_buku" placeholder="Masukan ID Buku"
-                        value="<?= $data['id_buku'] ?>" readonly>
+                        value="<?= $data['id_buku']?>" readonly>
                 </div>
             </div>
 
@@ -125,7 +125,7 @@ $data = $books->fetch_assoc();
             </a>
 
             <button class="btn btn-outline-success" type="submit">Submit</button>
-
+            
         </form>
     </div>
 
