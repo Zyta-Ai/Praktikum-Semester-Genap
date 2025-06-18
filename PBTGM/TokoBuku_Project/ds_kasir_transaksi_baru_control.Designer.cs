@@ -66,19 +66,21 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(61, 432);
+            this.label2.Location = new System.Drawing.Point(41, 281);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 31);
+            this.label2.Size = new System.Drawing.Size(92, 25);
             this.label2.TabIndex = 31;
             this.label2.Text = "Nama Buku";
             // 
             // tbNamaBuku
             // 
             this.tbNamaBuku.Enabled = false;
-            this.tbNamaBuku.Location = new System.Drawing.Point(225, 432);
+            this.tbNamaBuku.Location = new System.Drawing.Point(150, 281);
+            this.tbNamaBuku.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbNamaBuku.Multiline = true;
             this.tbNamaBuku.Name = "tbNamaBuku";
-            this.tbNamaBuku.Size = new System.Drawing.Size(211, 30);
+            this.tbNamaBuku.Size = new System.Drawing.Size(142, 21);
             this.tbNamaBuku.TabIndex = 30;
             // 
             // label1
@@ -86,19 +88,21 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(61, 493);
+            this.label1.Location = new System.Drawing.Point(41, 320);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 31);
+            this.label1.Size = new System.Drawing.Size(92, 25);
             this.label1.TabIndex = 33;
             this.label1.Text = "Harga Buku";
             // 
             // tbHargaBuku
             // 
             this.tbHargaBuku.Enabled = false;
-            this.tbHargaBuku.Location = new System.Drawing.Point(225, 491);
+            this.tbHargaBuku.Location = new System.Drawing.Point(150, 319);
+            this.tbHargaBuku.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbHargaBuku.Multiline = true;
             this.tbHargaBuku.Name = "tbHargaBuku";
-            this.tbHargaBuku.Size = new System.Drawing.Size(211, 30);
+            this.tbHargaBuku.Size = new System.Drawing.Size(142, 21);
             this.tbHargaBuku.TabIndex = 32;
             this.tbHargaBuku.Text = "Rp 0";
             // 
@@ -107,19 +111,21 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label3.Location = new System.Drawing.Point(61, 549);
+            this.label3.Location = new System.Drawing.Point(41, 357);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 31);
+            this.label3.Size = new System.Drawing.Size(101, 25);
             this.label3.TabIndex = 35;
             this.label3.Text = "Jumlah Buku";
             // 
             // tbJumlahBuku
             // 
-            this.tbJumlahBuku.Location = new System.Drawing.Point(225, 550);
+            this.tbJumlahBuku.Location = new System.Drawing.Point(150, 358);
+            this.tbJumlahBuku.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbJumlahBuku.MaxLength = 5;
             this.tbJumlahBuku.Multiline = true;
             this.tbJumlahBuku.Name = "tbJumlahBuku";
-            this.tbJumlahBuku.Size = new System.Drawing.Size(211, 30);
+            this.tbJumlahBuku.Size = new System.Drawing.Size(142, 21);
             this.tbJumlahBuku.TabIndex = 34;
             this.tbJumlahBuku.TextChanged += new System.EventHandler(this.tbJumlahBuku_TextChanged);
             // 
@@ -128,19 +134,21 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label4.Location = new System.Drawing.Point(442, 432);
+            this.label4.Location = new System.Drawing.Point(295, 281);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 31);
+            this.label4.Size = new System.Drawing.Size(69, 25);
             this.label4.TabIndex = 37;
             this.label4.Text = "Subtotal";
             // 
             // tbSubtotal
             // 
             this.tbSubtotal.Enabled = false;
-            this.tbSubtotal.Location = new System.Drawing.Point(539, 432);
+            this.tbSubtotal.Location = new System.Drawing.Point(359, 281);
+            this.tbSubtotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbSubtotal.Multiline = true;
             this.tbSubtotal.Name = "tbSubtotal";
-            this.tbSubtotal.Size = new System.Drawing.Size(211, 30);
+            this.tbSubtotal.Size = new System.Drawing.Size(142, 21);
             this.tbSubtotal.TabIndex = 36;
             this.tbSubtotal.Text = "Rp 0";
             // 
@@ -149,9 +157,10 @@
             this.bTambahT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(172)))), ((int)(((byte)(108)))));
             this.bTambahT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bTambahT.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.bTambahT.Location = new System.Drawing.Point(296, 620);
+            this.bTambahT.Location = new System.Drawing.Point(197, 403);
+            this.bTambahT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bTambahT.Name = "bTambahT";
-            this.bTambahT.Size = new System.Drawing.Size(140, 44);
+            this.bTambahT.Size = new System.Drawing.Size(93, 29);
             this.bTambahT.TabIndex = 39;
             this.bTambahT.Text = "Tambah ";
             this.bTambahT.UseVisualStyleBackColor = false;
@@ -162,9 +171,10 @@
             this.bHapus.BackColor = System.Drawing.Color.Red;
             this.bHapus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bHapus.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.bHapus.Location = new System.Drawing.Point(132, 620);
+            this.bHapus.Location = new System.Drawing.Point(88, 403);
+            this.bHapus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bHapus.Name = "bHapus";
-            this.bHapus.Size = new System.Drawing.Size(140, 44);
+            this.bHapus.Size = new System.Drawing.Size(93, 29);
             this.bHapus.TabIndex = 40;
             this.bHapus.Text = "Hapus";
             this.bHapus.UseVisualStyleBackColor = false;
@@ -175,9 +185,10 @@
             this.bCariProduk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(172)))), ((int)(((byte)(108)))));
             this.bCariProduk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bCariProduk.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.bCariProduk.Location = new System.Drawing.Point(67, 13);
+            this.bCariProduk.Location = new System.Drawing.Point(45, 8);
+            this.bCariProduk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bCariProduk.Name = "bCariProduk";
-            this.bCariProduk.Size = new System.Drawing.Size(178, 38);
+            this.bCariProduk.Size = new System.Drawing.Size(119, 25);
             this.bCariProduk.TabIndex = 42;
             this.bCariProduk.Text = "Cari Produk";
             this.bCariProduk.UseVisualStyleBackColor = false;
@@ -188,9 +199,10 @@
             this.bSelesaiT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(172)))), ((int)(((byte)(108)))));
             this.bSelesaiT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bSelesaiT.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.bSelesaiT.Location = new System.Drawing.Point(1135, 620);
+            this.bSelesaiT.Location = new System.Drawing.Point(757, 403);
+            this.bSelesaiT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bSelesaiT.Name = "bSelesaiT";
-            this.bSelesaiT.Size = new System.Drawing.Size(140, 44);
+            this.bSelesaiT.Size = new System.Drawing.Size(93, 29);
             this.bSelesaiT.TabIndex = 44;
             this.bSelesaiT.Text = "Selesai";
             this.bSelesaiT.UseVisualStyleBackColor = false;
@@ -201,19 +213,21 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label5.Location = new System.Drawing.Point(803, 441);
+            this.label5.Location = new System.Drawing.Point(535, 280);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 31);
+            this.label5.Size = new System.Drawing.Size(90, 25);
             this.label5.TabIndex = 46;
             this.label5.Text = "Total Bayar";
             // 
             // tbTotalBayar
             // 
             this.tbTotalBayar.Enabled = false;
-            this.tbTotalBayar.Location = new System.Drawing.Point(809, 475);
+            this.tbTotalBayar.Location = new System.Drawing.Point(539, 309);
+            this.tbTotalBayar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbTotalBayar.Multiline = true;
             this.tbTotalBayar.Name = "tbTotalBayar";
-            this.tbTotalBayar.Size = new System.Drawing.Size(211, 30);
+            this.tbTotalBayar.Size = new System.Drawing.Size(142, 21);
             this.tbTotalBayar.TabIndex = 45;
             this.tbTotalBayar.Text = "Rp 0";
             // 
@@ -222,9 +236,10 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label7.Location = new System.Drawing.Point(803, 509);
+            this.label7.Location = new System.Drawing.Point(535, 331);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(112, 31);
+            this.label7.Size = new System.Drawing.Size(87, 25);
             this.label7.TabIndex = 50;
             this.label7.Text = "Pilih Diskon";
             // 
@@ -232,9 +247,10 @@
             // 
             this.cbDiskon.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDiskon.FormattingEnabled = true;
-            this.cbDiskon.Location = new System.Drawing.Point(809, 543);
+            this.cbDiskon.Location = new System.Drawing.Point(539, 353);
+            this.cbDiskon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbDiskon.Name = "cbDiskon";
-            this.cbDiskon.Size = new System.Drawing.Size(211, 28);
+            this.cbDiskon.Size = new System.Drawing.Size(142, 21);
             this.cbDiskon.TabIndex = 51;
             // 
             // label6
@@ -242,19 +258,21 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label6.Location = new System.Drawing.Point(1057, 509);
+            this.label6.Location = new System.Drawing.Point(704, 326);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(111, 31);
+            this.label6.Size = new System.Drawing.Size(85, 25);
             this.label6.TabIndex = 53;
             this.label6.Text = "Kembalian";
             // 
             // tbKembalian
             // 
             this.tbKembalian.Enabled = false;
-            this.tbKembalian.Location = new System.Drawing.Point(1063, 543);
+            this.tbKembalian.Location = new System.Drawing.Point(709, 353);
+            this.tbKembalian.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbKembalian.Multiline = true;
             this.tbKembalian.Name = "tbKembalian";
-            this.tbKembalian.Size = new System.Drawing.Size(211, 30);
+            this.tbKembalian.Size = new System.Drawing.Size(142, 21);
             this.tbKembalian.TabIndex = 52;
             this.tbKembalian.Text = "Rp 0";
             // 
@@ -263,9 +281,10 @@
             this.tbBatalkan.BackColor = System.Drawing.Color.Red;
             this.tbBatalkan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.tbBatalkan.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.tbBatalkan.Location = new System.Drawing.Point(809, 620);
+            this.tbBatalkan.Location = new System.Drawing.Point(539, 403);
+            this.tbBatalkan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbBatalkan.Name = "tbBatalkan";
-            this.tbBatalkan.Size = new System.Drawing.Size(140, 44);
+            this.tbBatalkan.Size = new System.Drawing.Size(93, 29);
             this.tbBatalkan.TabIndex = 54;
             this.tbBatalkan.Text = "Batalkan";
             this.tbBatalkan.UseVisualStyleBackColor = false;
@@ -276,18 +295,20 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label8.Location = new System.Drawing.Point(1057, 441);
+            this.label8.Location = new System.Drawing.Point(704, 277);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(131, 31);
+            this.label8.Size = new System.Drawing.Size(101, 25);
             this.label8.TabIndex = 56;
             this.label8.Text = "Pembayaran";
             // 
             // tbPembayaran
             // 
-            this.tbPembayaran.Location = new System.Drawing.Point(1063, 475);
+            this.tbPembayaran.Location = new System.Drawing.Point(709, 309);
+            this.tbPembayaran.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbPembayaran.Multiline = true;
             this.tbPembayaran.Name = "tbPembayaran";
-            this.tbPembayaran.Size = new System.Drawing.Size(211, 30);
+            this.tbPembayaran.Size = new System.Drawing.Size(142, 21);
             this.tbPembayaran.TabIndex = 55;
             this.tbPembayaran.TextChanged += new System.EventHandler(this.tbPembayaran_TextChanged);
             // 
@@ -302,12 +323,13 @@
             this.Column3,
             this.Column4,
             this.Subtotal});
-            this.tabel_transaksi.Location = new System.Drawing.Point(67, 70);
+            this.tabel_transaksi.Location = new System.Drawing.Point(45, 46);
+            this.tabel_transaksi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabel_transaksi.Name = "tabel_transaksi";
             this.tabel_transaksi.RowHeadersVisible = false;
             this.tabel_transaksi.RowHeadersWidth = 62;
             this.tabel_transaksi.RowTemplate.Height = 28;
-            this.tabel_transaksi.Size = new System.Drawing.Size(1208, 343);
+            this.tabel_transaksi.Size = new System.Drawing.Size(805, 223);
             this.tabel_transaksi.TabIndex = 57;
             // 
             // Column1
@@ -356,7 +378,7 @@
             // 
             // ds_kasir_transaksi_baru_control
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(87)))), ((int)(((byte)(115)))));
             this.Controls.Add(this.label8);
@@ -381,8 +403,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbNamaBuku);
             this.Controls.Add(this.tabel_transaksi);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ds_kasir_transaksi_baru_control";
-            this.Size = new System.Drawing.Size(1336, 700);
+            this.Size = new System.Drawing.Size(891, 455);
             this.Load += new System.EventHandler(this.ds_kasir_transaksi_baru_control_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tabel_transaksi)).EndInit();
             this.ResumeLayout(false);

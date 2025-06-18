@@ -56,7 +56,7 @@ namespace TokoBuku_Project
                                 {
                                     dashboard_kasir kasir_dashboard = new dashboard_kasir();
                                     kasir_dashboard.Show();
-                                    this.Hide(); // Sembunyikan Login_Page
+                                    this.Hide(); 
                                     kasir_dashboard.FormClosed += (s, args) => this.Show(); 
                                 }
                                 else

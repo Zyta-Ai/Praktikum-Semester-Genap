@@ -233,7 +233,7 @@ SELECT * FROM penjualan ORDER BY `tanggalPenjualan` ASC;
 
 SELECT COUNT(*) FROM penjualan WHERE tanggalPenjualan BETWEEN DATE_SUB('@tanggalSebelum', INTERVAL 7 DAY) AND '@tanggalSesudah';
 --  WHERE tanggalPenjualan BETWEEN DATE_SUB(@tanggalSebelum, INTERVAL 7 DAY) AND @tanggalSesudah
-
+    
 SELECT SUM(detail_penjualan.subtotal * 20/100) FROM detail_penjualan
 JOIN penjualan
 ON detail_penjualan.penjualan_id = penjualan.penjualan_id
@@ -244,3 +244,20 @@ SELECT SUM(subtotal) as total_penjualan FROM detail_penjualan;
     SELECT MONTH(tanggalPenjualan) AS bulan, COUNT(*) AS total_penjualan FROM penjualan GROUP BY bulan ORDER BY bulan
 
 
+SELECT produk.nama_produk, SUM(detail_penjualan.jumlah_produk) AS total_penjualan
+FROM detail_penjualan
+JOIN produk ON detail_penjualan.produk_id = produk.produk_id
+JOIN penjualan ON detail_penjualan.penjualan_id = penjualan.penjualan_id
+WHERE penjualan.tanggalPenjualan BETWEEN DATE_SUB('2025-04-25', INTERVAL 30 DAY) AND '2025-04-25'
+GROUP BY produk.produk_id, produk.nama_produk
+ORDER BY total_penjualan DESC
+LIMIT 10;
+
+SELECT * FROM penjualan
+
+INSERT INTO penjualan (penjualan_id, tanggalPenjualan, pelanggan_id) VALUES
+(95, '2025-04-20', 2);
+
+INSERT INTO detail_penjualan (penjualan_id, produk_id, jumlah_produk, subtotal) VALUES
+(95, 3, 2, 40000), -- Produk 3, harga 20,000 x 2
+(95, 5, 1, 50000); -- Produk 5, harga 50,000 x 1

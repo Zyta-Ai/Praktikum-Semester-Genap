@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title5 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -66,12 +67,12 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.lTotalPenjualan = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBulanIni = new System.Windows.Forms.Button();
+            this.btn30Hari = new System.Windows.Forms.Button();
+            this.btnMinggu = new System.Windows.Forms.Button();
+            this.btnHariIni = new System.Windows.Forms.Button();
+            this.bCustom = new System.Windows.Forms.Button();
+            this.bOke = new System.Windows.Forms.Button();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
@@ -115,7 +116,7 @@
             this.label15.Location = new System.Drawing.Point(31, 12);
             this.label15.Margin = new System.Windows.Forms.Padding(0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(203, 60);
+            this.label15.Size = new System.Drawing.Size(192, 56);
             this.label15.TabIndex = 13;
             this.label15.Text = "Total Data";
             // 
@@ -149,7 +150,7 @@
             this.label13.Location = new System.Drawing.Point(140, 199);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(107, 42);
+            this.label13.Size = new System.Drawing.Size(105, 40);
             this.label13.TabIndex = 17;
             this.label13.Text = "Produk";
             // 
@@ -161,7 +162,7 @@
             this.lTotalProduk.Location = new System.Drawing.Point(139, 235);
             this.lTotalProduk.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lTotalProduk.Name = "lTotalProduk";
-            this.lTotalProduk.Size = new System.Drawing.Size(71, 48);
+            this.lTotalProduk.Size = new System.Drawing.Size(71, 46);
             this.lTotalProduk.TabIndex = 16;
             this.lTotalProduk.Text = "555";
             // 
@@ -173,7 +174,7 @@
             this.label8.Location = new System.Drawing.Point(140, 84);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(158, 42);
+            this.label8.Size = new System.Drawing.Size(154, 40);
             this.label8.TabIndex = 14;
             this.label8.Text = "Pelanggan";
             // 
@@ -185,7 +186,7 @@
             this.lTotalPelanggan.Location = new System.Drawing.Point(139, 119);
             this.lTotalPelanggan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lTotalPelanggan.Name = "lTotalPelanggan";
-            this.lTotalPelanggan.Size = new System.Drawing.Size(71, 48);
+            this.lTotalPelanggan.Size = new System.Drawing.Size(71, 46);
             this.lTotalPelanggan.TabIndex = 13;
             this.lTotalPelanggan.Text = "555";
             // 
@@ -206,7 +207,7 @@
             this.label16.Location = new System.Drawing.Point(13, 12);
             this.label16.Margin = new System.Windows.Forms.Padding(0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(239, 60);
+            this.label16.Size = new System.Drawing.Size(224, 56);
             this.label16.TabIndex = 20;
             this.label16.Text = "Last Product";
             // 
@@ -223,30 +224,36 @@
             // 
             // chart2
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea1);
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.chart2.Legends.Add(legend1);
-            this.chart2.Location = new System.Drawing.Point(4, 57);
+            chartArea9.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea9);
+            this.chart2.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend9.Enabled = false;
+            legend9.Name = "Legend1";
+            this.chart2.Legends.Add(legend9);
+            this.chart2.Location = new System.Drawing.Point(0, 0);
             this.chart2.Margin = new System.Windows.Forms.Padding(4);
             this.chart2.Name = "chart2";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart2.Series.Add(series1);
-            this.chart2.Size = new System.Drawing.Size(479, 614);
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series9.Legend = "Legend1";
+            series9.Name = "Series1";
+            this.chart2.Series.Add(series9);
+            this.chart2.Size = new System.Drawing.Size(487, 695);
             this.chart2.TabIndex = 30;
             this.chart2.Text = "chart2";
+            title5.Font = new System.Drawing.Font("Poppins", 13.77391F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title5.Name = "Title1";
+            title5.Text = "Top 10 Barang Terlaris";
+            this.chart2.Titles.Add(title5);
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Poppins SemiBold", 14F, System.Drawing.FontStyle.Bold);
-            this.label17.Location = new System.Drawing.Point(20, 11);
+            this.label17.Location = new System.Drawing.Point(113, 11);
             this.label17.Margin = new System.Windows.Forms.Padding(0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(350, 53);
+            this.label17.Size = new System.Drawing.Size(265, 40);
             this.label17.TabIndex = 20;
             this.label17.Text = "Top 10 Barang Terjual";
             // 
@@ -264,22 +271,22 @@
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            chartArea10.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea10);
+            legend10.Enabled = false;
+            legend10.Name = "Legend1";
+            this.chart1.Legends.Add(legend10);
             this.chart1.Location = new System.Drawing.Point(4, 57);
             this.chart1.Margin = new System.Windows.Forms.Padding(4);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.chart1.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.Red};
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart1.Series.Add(series2);
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series10.Legend = "Legend1";
+            series10.Name = "Series1";
+            this.chart1.Series.Add(series10);
             this.chart1.Size = new System.Drawing.Size(1016, 298);
             this.chart1.TabIndex = 29;
             this.chart1.Text = "chart1";
@@ -291,7 +298,7 @@
             this.label18.Location = new System.Drawing.Point(51, 11);
             this.label18.Margin = new System.Windows.Forms.Padding(0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(296, 42);
+            this.label18.Size = new System.Drawing.Size(281, 40);
             this.label18.TabIndex = 21;
             this.label18.Text = "Penjualan per Tanggal";
             // 
@@ -348,7 +355,7 @@
             this.lTotalProfit.Location = new System.Drawing.Point(139, 65);
             this.lTotalProfit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lTotalProfit.Name = "lTotalProfit";
-            this.lTotalProfit.Size = new System.Drawing.Size(146, 48);
+            this.lTotalProfit.Size = new System.Drawing.Size(145, 46);
             this.lTotalProfit.TabIndex = 6;
             this.lTotalProfit.Text = "$300.000";
             // 
@@ -360,7 +367,7 @@
             this.label4.Location = new System.Drawing.Point(140, 30);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(157, 42);
+            this.label4.Size = new System.Drawing.Size(155, 40);
             this.label4.TabIndex = 7;
             this.label4.Text = "Total Profit";
             // 
@@ -397,7 +404,7 @@
             this.lTotalPendapatan.Location = new System.Drawing.Point(139, 65);
             this.lTotalPendapatan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lTotalPendapatan.Name = "lTotalPendapatan";
-            this.lTotalPendapatan.Size = new System.Drawing.Size(147, 48);
+            this.lTotalPendapatan.Size = new System.Drawing.Size(146, 46);
             this.lTotalPendapatan.TabIndex = 4;
             this.lTotalPendapatan.Text = "$800.000";
             // 
@@ -409,7 +416,7 @@
             this.label5.Location = new System.Drawing.Point(140, 30);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(250, 42);
+            this.label5.Size = new System.Drawing.Size(245, 40);
             this.label5.TabIndex = 4;
             this.label5.Text = "Total Pendapatan";
             // 
@@ -468,7 +475,7 @@
             this.label12.Location = new System.Drawing.Point(140, 30);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(148, 42);
+            this.label12.Size = new System.Drawing.Size(143, 40);
             this.label12.TabIndex = 11;
             this.label12.Text = "Penjualan";
             // 
@@ -480,99 +487,105 @@
             this.lTotalPenjualan.Location = new System.Drawing.Point(139, 65);
             this.lTotalPenjualan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lTotalPenjualan.Name = "lTotalPenjualan";
-            this.lTotalPenjualan.Size = new System.Drawing.Size(71, 48);
+            this.lTotalPenjualan.Size = new System.Drawing.Size(71, 46);
             this.lTotalPenjualan.TabIndex = 10;
             this.lTotalPenjualan.Text = "555";
             // 
-            // button6
+            // btnBulanIni
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Poppins Light", 10F);
-            this.button6.Location = new System.Drawing.Point(1475, 47);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(155, 44);
-            this.button6.TabIndex = 21;
-            this.button6.Text = "This Month";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnBulanIni.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBulanIni.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
+            this.btnBulanIni.FlatAppearance.BorderSize = 2;
+            this.btnBulanIni.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBulanIni.Font = new System.Drawing.Font("Poppins Light", 10F);
+            this.btnBulanIni.Location = new System.Drawing.Point(1475, 47);
+            this.btnBulanIni.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBulanIni.Name = "btnBulanIni";
+            this.btnBulanIni.Size = new System.Drawing.Size(155, 44);
+            this.btnBulanIni.TabIndex = 21;
+            this.btnBulanIni.Text = "This Month";
+            this.btnBulanIni.UseVisualStyleBackColor = false;
+            this.btnBulanIni.Click += new System.EventHandler(this.btnBulanIni_Click);
             // 
-            // button5
+            // btn30Hari
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Poppins Light", 10F);
-            this.button5.Location = new System.Drawing.Point(1308, 47);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(171, 44);
-            this.button5.TabIndex = 20;
-            this.button5.Text = "Last 30 Days";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn30Hari.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn30Hari.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
+            this.btn30Hari.FlatAppearance.BorderSize = 2;
+            this.btn30Hari.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn30Hari.Font = new System.Drawing.Font("Poppins Light", 10F);
+            this.btn30Hari.Location = new System.Drawing.Point(1308, 47);
+            this.btn30Hari.Margin = new System.Windows.Forms.Padding(4);
+            this.btn30Hari.Name = "btn30Hari";
+            this.btn30Hari.Size = new System.Drawing.Size(171, 44);
+            this.btn30Hari.TabIndex = 20;
+            this.btn30Hari.Text = "Last 30 Days";
+            this.btn30Hari.UseVisualStyleBackColor = false;
+            this.btn30Hari.Click += new System.EventHandler(this.btn30Hari_Click);
             // 
-            // button4
+            // btnMinggu
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Poppins Light", 10F);
-            this.button4.Location = new System.Drawing.Point(1144, 47);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(171, 44);
-            this.button4.TabIndex = 19;
-            this.button4.Text = "Last Week";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnMinggu.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMinggu.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
+            this.btnMinggu.FlatAppearance.BorderSize = 2;
+            this.btnMinggu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinggu.Font = new System.Drawing.Font("Poppins Light", 10F);
+            this.btnMinggu.Location = new System.Drawing.Point(1144, 47);
+            this.btnMinggu.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMinggu.Name = "btnMinggu";
+            this.btnMinggu.Size = new System.Drawing.Size(171, 44);
+            this.btnMinggu.TabIndex = 19;
+            this.btnMinggu.Text = "Last Week";
+            this.btnMinggu.UseVisualStyleBackColor = false;
+            this.btnMinggu.Click += new System.EventHandler(this.btnMinggu_Click);
             // 
-            // button3
+            // btnHariIni
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Poppins Light", 10F);
-            this.button3.Location = new System.Drawing.Point(1032, 47);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 44);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "Today";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnHariIni.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnHariIni.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
+            this.btnHariIni.FlatAppearance.BorderSize = 2;
+            this.btnHariIni.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHariIni.Font = new System.Drawing.Font("Poppins Light", 10F);
+            this.btnHariIni.Location = new System.Drawing.Point(1032, 47);
+            this.btnHariIni.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHariIni.Name = "btnHariIni";
+            this.btnHariIni.Size = new System.Drawing.Size(116, 44);
+            this.btnHariIni.TabIndex = 18;
+            this.btnHariIni.Text = "Today";
+            this.btnHariIni.UseVisualStyleBackColor = false;
+            this.btnHariIni.Click += new System.EventHandler(this.btnHariIni_Click);
             // 
-            // button2
+            // bCustom
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Poppins Light", 10F);
-            this.button2.Location = new System.Drawing.Point(921, 47);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 44);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Custom";
-            this.button2.UseVisualStyleBackColor = false;
+            this.bCustom.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.bCustom.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
+            this.bCustom.FlatAppearance.BorderSize = 2;
+            this.bCustom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bCustom.Font = new System.Drawing.Font("Poppins Light", 10F);
+            this.bCustom.Location = new System.Drawing.Point(921, 47);
+            this.bCustom.Margin = new System.Windows.Forms.Padding(4);
+            this.bCustom.Name = "bCustom";
+            this.bCustom.Size = new System.Drawing.Size(116, 44);
+            this.bCustom.TabIndex = 17;
+            this.bCustom.Text = "Custom";
+            this.bCustom.UseVisualStyleBackColor = false;
+            this.bCustom.Click += new System.EventHandler(this.bCustom_Click);
             // 
-            // button1
+            // bOke
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Poppins Light", 10F);
-            this.button1.Location = new System.Drawing.Point(809, 47);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 44);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "OK";
-            this.button1.UseVisualStyleBackColor = false;
+            this.bOke.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.bOke.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
+            this.bOke.FlatAppearance.BorderSize = 2;
+            this.bOke.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bOke.Font = new System.Drawing.Font("Poppins Light", 10F);
+            this.bOke.Location = new System.Drawing.Point(809, 47);
+            this.bOke.Margin = new System.Windows.Forms.Padding(4);
+            this.bOke.Name = "bOke";
+            this.bOke.Size = new System.Drawing.Size(116, 44);
+            this.bOke.TabIndex = 16;
+            this.bOke.Text = "OK";
+            this.bOke.UseVisualStyleBackColor = false;
+            this.bOke.Click += new System.EventHandler(this.bOke_Click);
             // 
             // dateTimePicker2
             // 
@@ -583,7 +596,7 @@
             this.dateTimePicker2.Location = new System.Drawing.Point(585, 58);
             this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 32);
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 31);
             this.dateTimePicker2.TabIndex = 15;
             // 
             // dateTimePicker1
@@ -595,7 +608,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(376, 58);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 32);
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 31);
             this.dateTimePicker1.TabIndex = 14;
             // 
             // label1
@@ -605,7 +618,7 @@
             this.label1.Location = new System.Drawing.Point(57, 47);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(218, 60);
+            this.label1.Size = new System.Drawing.Size(206, 56);
             this.label1.TabIndex = 13;
             this.label1.Text = "Dashboard";
             // 
@@ -632,18 +645,18 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBulanIni);
+            this.Controls.Add(this.btn30Hari);
+            this.Controls.Add(this.btnMinggu);
+            this.Controls.Add(this.btnHariIni);
+            this.Controls.Add(this.bCustom);
+            this.Controls.Add(this.bOke);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Dashboard";
-            this.Text = "Dashboard";
+            this.Text = "x";
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
@@ -703,12 +716,12 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label lTotalPenjualan;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBulanIni;
+        private System.Windows.Forms.Button btn30Hari;
+        private System.Windows.Forms.Button btnMinggu;
+        private System.Windows.Forms.Button btnHariIni;
+        private System.Windows.Forms.Button bCustom;
+        private System.Windows.Forms.Button bOke;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label1;
